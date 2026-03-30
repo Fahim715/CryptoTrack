@@ -1,11 +1,21 @@
 # CryptoTracker
 
+![Java 17](https://img.shields.io/badge/Java-17-007396?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot 3.2](https://img.shields.io/badge/Spring%20Boot-3.2-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Apache Kafka](https://img.shields.io/badge/Apache%20Kafka-Streaming-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-Database-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![React 18](https://img.shields.io/badge/React-18-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Recharts](https://img.shields.io/badge/Recharts-Visualization-FF6384?style=for-the-badge)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-Frontend%20Serving-009639?style=for-the-badge&logo=nginx&logoColor=white)
+
 CryptoTracker is a full-stack, real-time cryptocurrency analytics dashboard built with Spring Boot, Kafka, MongoDB, and React.
 
 It fetches live market data from CoinGecko, processes and streams updates through Kafka, stores historical data in MongoDB, and delivers live updates to the frontend through Server-Sent Events (SSE) and WebSocket.
 
 ## Table of Contents
 
+- [Tech Used](#tech-used)
 - [Overview](#overview)
 - [Key Features](#key-features)
 - [Architecture](#architecture)
@@ -19,6 +29,19 @@ It fetches live market data from CoinGecko, processes and streams updates throug
 - [Configuration](#configuration)
 - [Troubleshooting](#troubleshooting)
 - [Future Improvements](#future-improvements)
+
+## Tech Used
+
+- Java 17
+- Spring Boot 3.2 (Web, WebFlux, WebSocket, Scheduling)
+- Spring Kafka
+- Spring Data MongoDB
+- Apache Kafka + Zookeeper
+- MongoDB
+- React 18 + Recharts
+- Nginx
+- Docker + Docker Compose
+- Maven + npm
 
 ## Overview
 
